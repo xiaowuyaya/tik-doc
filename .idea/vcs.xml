@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/BST-dormitory-CMS-java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Serendipity-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Serendipity-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ee-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iohook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/league-connect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/poker-score-record/poker-score-record-applet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/poker-score-record/poker-score-record-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/serendipity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/serendipity-v2" vcs="Git" />
+  </component>
+</project>

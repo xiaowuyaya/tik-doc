@@ -25,97 +25,26 @@ export default defineConfig({
     },
 
     nav: [
-      { text: '使用教程', link: '/guide/', activeMatch: '/guide/' },
       { text: '常见问题', link: '/question/', activeMatch: '/question/' },
       { text: '历史版本', link: '/release/', activeMatch: '/release/' },
       { text: '捐助项目', link: '/donate/', activeMatch: '/donate/' },
-
     ],
 
     sidebar: {
-      '/guide/': [
+      '/release/': [
         {
-          text: 'Guide',
+          text: '版本相关',
           items: [
             {
-              text: 'Why Vite',
-              link: '/guide/why'
+              text: '更新日志',
+              link: '/release/'
             },
             {
-              text: 'Getting Started',
-              link: '/guide/'
+              text: '历史版本',
+              link: '/release/history-version'
             },
-            {
-              text: 'Features',
-              link: '/guide/features'
-            },
-            {
-              text: 'Using Plugins',
-              link: '/guide/using-plugins'
-            },
-            {
-              text: 'Dependency Pre-Bundling',
-              link: '/guide/dep-pre-bundling'
-            },
-            {
-              text: 'Static Asset Handling',
-              link: '/guide/assets'
-            },
-            {
-              text: 'Building for Production',
-              link: '/guide/build'
-            },
-            {
-              text: 'Deploying a Static Site',
-              link: '/guide/static-deploy'
-            },
-            {
-              text: 'Env Variables and Modes',
-              link: '/guide/env-and-mode'
-            },
-            {
-              text: 'Server-Side Rendering (SSR)',
-              link: '/guide/ssr'
-            },
-            {
-              text: 'Backend Integration',
-              link: '/guide/backend-integration'
-            },
-            {
-              text: 'Comparisons',
-              link: '/guide/comparisons'
-            },
-            {
-              text: 'Troubleshooting',
-              link: '/guide/troubleshooting'
-            },
-            {
-              text: 'Migration from v2',
-              link: '/guide/migration'
-            }
           ]
         },
-        {
-          text: 'APIs',
-          items: [
-            {
-              text: 'Plugin API',
-              link: '/guide/api-plugin'
-            },
-            {
-              text: 'HMR API',
-              link: '/guide/api-hmr'
-            },
-            {
-              text: 'JavaScript API',
-              link: '/guide/api-javascript'
-            },
-            {
-              text: 'Config Reference',
-              link: '/config/'
-            }
-          ]
-        }
       ],
       '/question/': [
         {
@@ -124,10 +53,6 @@ export default defineConfig({
             {
               text: '启动应用弹窗报错',
               link: '/question/launch-error'
-            },
-            {
-              text: '选人界面时，对局面板信息显示不全',
-              link: '/question/panel-error'
             },
             {
               text: '5V5训练模式无法启动',

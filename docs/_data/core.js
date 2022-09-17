@@ -1,6 +1,6 @@
 export const core = {
   release: {
-    version: '3.5.10',
-    url: 'http://lzjx.eiko.ren/?url=https://wwb.lanzouv.com/i2qxh0bmtsfg&pwd=3m7c&type=down'
+    version: '3.5.11',
+    url: 'http://lzjx.eiko.ren/?url=https://wwb.lanzouv.com/ig2530bvigah&pwd=3ijt&type=down'
   }
 }

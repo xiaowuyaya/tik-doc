@@ -51,6 +51,10 @@ export default defineConfig({
           text: '常见问题',
           items: [
             {
+              text: '国服更新18版本之后导致无法使用',
+              link: '/question/tencent-fuck'
+            },
+            {
               text: '启动应用弹窗报错',
               link: '/question/launch-error'
             },

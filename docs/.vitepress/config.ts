@@ -20,8 +20,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: `闽ICP备2022001163号`,
-      copyright: 'Copyright © 2022-present XiaoWuYaYa & liaolingwei605@163.com Contributors'
+      message: `<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备2022001163号</a>`,
+      copyright: 'Copyright © 2022-present XiaoWuYaYa & liaolingwei605@163.com Contributors',
     },
 
     nav: [
